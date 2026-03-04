@@ -1,0 +1,5 @@
+### GET /
+GET https://cse341-project1-4z97.onrender.com/contacts
+
+### GET /:id
+GET https://cse341-project1-4z97.onrender.com/contacts/69a7a333d914199414d56be5
