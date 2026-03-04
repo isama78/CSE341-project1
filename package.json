@@ -1,0 +1,26 @@
+{
+  "name": "cse341-project1",
+  "version": "1.0.0",
+  "description": "My first cse341 project",
+  "homepage": "https://github.com/isama78/CSE341-project1#readme",
+  "bugs": {
+    "url": "https://github.com/isama78/CSE341-project1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isama78/CSE341-project1.git"
+  },
+  "license": "ISC",
+  "author": "Mauro Isa",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.0"
+  }
+}
