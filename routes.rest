@@ -1,5 +1,32 @@
 ### GET /
-GET https://cse341-project1-4z97.onrender.com/contacts
+GET http://localhost:3000/contacts
 
 ### GET /:id
 GET https://cse341-project1-4z97.onrender.com/contacts/69a7a333d914199414d56be5
+
+### POST /
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "favoriteColor": "Blue",
+  "birthday": "1990-01-01"
+}
+
+### PUT /:id
+PUT http://localhost:3000/contacts/69a98e604651021bb952fc41
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "favoriteColor": "Red",
+  "birthday": "1990-01-01"
+}
+
+### DELETE /:id
+DELETE http://localhost:3000/contacts/69a98e604651021bb952fc41
