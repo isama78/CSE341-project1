@@ -5,9 +5,11 @@
     "version": "1.0.0",
     "description": "API for CSE341 Project 1"
   },
-  "host": "https://cse341-project1-4z97.onrender.com",
+  "host": "cse341-project1-4z97.onrender.com",
   "basePath": "/",
-  "schemes": ["https"],
+  "schemes": [
+    "https"
+  ],
   "paths": {
     "/": {
       "get": {
@@ -21,7 +23,9 @@
     },
     "/contacts": {
       "get": {
-        "tags": ["Contacts"],
+        "tags": [
+          "Contacts"
+        ],
         "description": "",
         "responses": {
           "200": {
@@ -30,7 +34,9 @@
         }
       },
       "post": {
-        "tags": ["Contacts"],
+        "tags": [
+          "Contacts"
+        ],
         "description": "",
         "parameters": [
           {
@@ -67,7 +73,9 @@
     },
     "/contacts/{id}": {
       "get": {
-        "tags": ["Contacts"],
+        "tags": [
+          "Contacts"
+        ],
         "description": "",
         "parameters": [
           {
@@ -87,7 +95,9 @@
         }
       },
       "put": {
-        "tags": ["Contacts"],
+        "tags": [
+          "Contacts"
+        ],
         "description": "",
         "parameters": [
           {
@@ -131,7 +141,9 @@
         }
       },
       "delete": {
-        "tags": ["Contacts"],
+        "tags": [
+          "Contacts"
+        ],
         "description": "",
         "parameters": [
           {
